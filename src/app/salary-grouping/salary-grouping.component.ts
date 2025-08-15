@@ -19,13 +19,22 @@ export class SalaryGroupingComponent {
   currentYear = new Date().getFullYear();
 
   onFileSelected(event: Event) {
-    const input = event.target as HTMLInputElement;
-    if (input.files && input.files.length > 0) {
-      this.selectedFile = input.files[0];
-      this.fileName = this.selectedFile.name;
+  const input = event.target as HTMLInputElement;
+  if (input.files && input.files.length > 0) {
+    const file = input.files[0];
+
+    if (file.name.toLowerCase() !== 'personnes_100.csv') {
+      this.processingMessage = "❌ Please upload a file named 'personnes_100.csv' only.";
+      this.selectedFile = null;
+      this.fileName = '';
+      input.value = ''; 
+    } else {
+      this.selectedFile = file;
+      this.fileName = file.name;
+      this.processingMessage = '';
     }
   }
-
+}
   async processFile() {
     if (!this.selectedFile) {
       alert('Please select a file first');

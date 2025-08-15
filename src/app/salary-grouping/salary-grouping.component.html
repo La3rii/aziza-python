@@ -6,17 +6,30 @@
 
   <div class="file-upload-container">
     <label class="file-upload-label">
-      <input type="file" #fileInput class="file-input" (change)="onFileSelected($event)" accept=".csv">
+      <input
+        type="file"
+        #fileInput
+        class="file-input"
+        (change)="onFileSelected($event)"
+        accept=".csv"
+      />
       <span class="file-upload-button">Choose File</span>
       <span class="file-name">{{ fileName || 'No file selected' }}</span>
     </label>
   </div>
 
-  <button class="process-button" (click)="processFile()" [disabled]="!selectedFile || isProcessing">
+  <button
+    class="process-button"
+    (click)="processFile()"
+    [disabled]="!selectedFile || isProcessing"
+  >
     {{ isProcessing ? 'Processing...' : 'Generate Reports' }}
   </button>
 
-  <div class="status-message" [class.error]="processingMessage.includes('Error')">
+  <div
+    class="status-message"
+    [class.error]="processingMessage.includes('Error')"
+  >
     {{ processingMessage }}
   </div>
 </div>

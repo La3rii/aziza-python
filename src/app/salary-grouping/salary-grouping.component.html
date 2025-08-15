@@ -1,0 +1,26 @@
+<div class="container">
+  <div class="header">
+    <h1>Salary Grouping Report Generator</h1>
+    <p>Upload a CSV file to generate salary grouping reports</p>
+  </div>
+
+  <div class="file-upload-container">
+    <label class="file-upload-label">
+      <input type="file" #fileInput class="file-input" (change)="onFileSelected($event)" accept=".csv">
+      <span class="file-upload-button">Choose File</span>
+      <span class="file-name">{{ fileName || 'No file selected' }}</span>
+    </label>
+  </div>
+
+  <button class="process-button" (click)="processFile()" [disabled]="!selectedFile || isProcessing">
+    {{ isProcessing ? 'Processing...' : 'Generate Reports' }}
+  </button>
+
+  <div class="status-message" [class.error]="processingMessage.includes('Error')">
+    {{ processingMessage }}
+  </div>
+</div>
+
+<div class="footer">
+  © {{ currentYear }} Salary Grouping Report Generator
+</div>

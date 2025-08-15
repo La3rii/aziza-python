@@ -1,0 +1,128 @@
+/* Make body full height and use flex column */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* full viewport height */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Main container fills remaining space */
+.container {
+  flex: 1; /* take up remaining space */
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* Header styles with shadow */
+.header {
+  text-align: center;
+  margin-bottom: 2rem;
+  padding: 1.5rem 0;
+  background-color: white;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+  z-index: 10;
+}
+
+.header h1 {
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+}
+
+.header p {
+  color: #7f8c8d;
+}
+
+/* File upload section */
+.file-upload-container {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.file-upload-label {
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.file-input {
+  display: none;
+}
+
+.file-upload-button {
+  padding: 0.75rem 1.5rem;
+  background-color: #3498db;
+  color: white;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.file-upload-button:hover {
+  background-color: #2980b9;
+}
+
+.file-name {
+  margin-left: 1rem;
+  color: #7f8c8d;
+}
+
+/* Process button */
+.process-button {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #2ecc71;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.process-button:hover:not(:disabled) {
+  background-color: #27ae60;
+}
+
+.process-button:disabled {
+  background-color: #95a5a6;
+  cursor: not-allowed;
+}
+
+/* Status messages */
+.status-message {
+  margin-top: 1.5rem;
+  padding: 1rem;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.status-message:not(.error) {
+  background-color: #d5f5e3;
+  color: #27ae60;
+}
+
+.status-message.error {
+  background-color: #fadbd8;
+  color: #e74c3c;
+}
+
+/* Footer styles with shadow */
+.footer {
+  text-align: center;
+  color: #7f8c8d;
+  font-size: 0.9rem;
+  padding: 1.5rem 0;
+  margin-top: auto; /* pushes footer to bottom */
+  background-color: white;
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+  z-index: 10;
+}

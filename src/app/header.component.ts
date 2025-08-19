@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   standalone: true,
   template: `
     <header style="background-color: #d12a2a; color: white; padding: 1rem;">
-     <img src="assets/aziza.png" style="height: 50px; vertical-align: middle;">
+     <img src="assets/aziza2.jpg" style="height: 50px; vertical-align: middle;">
       <nav style="display: inline-block; margin-left: 2rem;">
       </nav>
     </header>

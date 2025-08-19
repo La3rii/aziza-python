@@ -1,7 +1,10 @@
 <div class="container">
   <div class="header">
-    <h1>Salary Grouping Report Generator</h1>
-    <p>Upload a CSV file to generate salary grouping reports</p>
+    <div class="logo-container">
+      <img src="assets/aziza.png" alt="Logo" class="logo">
+    </div>
+    <h1>Générateur de rapports de regroupement de salaires</h1>
+    <p>Téléchargez un fichier CSV pour générer des rapports de regroupement des salaires</p>
   </div>
 
   <div class="file-upload-container">
@@ -13,27 +16,43 @@
         (change)="onFileSelected($event)"
         accept=".csv"
       />
-      <span class="file-upload-button">Choose File</span>
-      <span class="file-name">{{ fileName || 'No file selected' }}</span>
+      <span class="file-upload-button">Choisir le fichier</span>
+     <span class="file-name"><strong>{{ fileName || 'Aucun fichier sélectionné' }}</strong></span>
+
     </label>
   </div>
 
-  <button
-    class="process-button"
-    (click)="processFile()"
-    [disabled]="!selectedFile || isProcessing"
-  >
-    {{ isProcessing ? 'Processing...' : 'Generate Reports' }}
-  </button>
+  <!-- ✅ Bouton jaune après confirmation -->
+  <div class="download-container" *ngIf="showDownloadButton">
+    <button class="download-button" (click)="downloadFiles()">📂 Télécharger vos fichiers</button>
+  </div>
 
-  <div
-    class="status-message"
-    [class.error]="processingMessage.includes('Error')"
-  >
-    {{ processingMessage }}
+  <!-- Loading overlay -->
+  <div class="loading-overlay" *ngIf="isProcessing">
+    <div class="loading-content">
+      <i class="refresh-icon"></i>
+      <p>Traitement de votre dossier...</p>
+    </div>
   </div>
 </div>
 
-<div class="footer">
-  © {{ currentYear }} Salary Grouping Report Generator
+<!-- Confirmation Modal -->
+<div class="modal-overlay" *ngIf="showConfirmationModal">
+  <div class="modal">
+    <p>Vous souhaitez télécharger les fichiers?</p>
+    <div class="modal-buttons">
+      <button class="modal-button confirm" (click)="confirmDownload()">Oui</button>
+      <button class="modal-button cancel" (click)="cancelDownload()">Non</button>
+    </div>
+  </div>
+</div>
+
+<!-- Error Modal -->
+<div class="modal-overlay" *ngIf="showErrorModal">
+  <div class="modal">
+    <p>{{ errorMessage }}</p>
+    <div class="modal-buttons">
+      <button class="modal-button confirm" (click)="closeErrorModal()">OK</button>
+    </div>
+  </div>
 </div>

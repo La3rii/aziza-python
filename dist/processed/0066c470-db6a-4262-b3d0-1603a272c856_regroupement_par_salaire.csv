@@ -1,0 +1,295 @@
+GROUPE 1 - Salaire: 0DT,,,,,
+Nombre de personnes: 2,,,,,
+Nombre de jours: 0,,,,,
+,,,,,
+Nom,Prénom,Immatriculation,ID Groupe,Salaire (DT),Jours travaillés
+Salazar,Tom,UTQ9933,G1,0,0
+Castro,Alexander,FBX5865,G1,0,0
+,,,,,
+==================================================,,,,,
+,,,,,
+GROUPE 2 - Salaire: 3DT,,,,,
+Nombre de personnes: 5,,,,,
+Nombre de jours: 1,,,,,
+,,,,,
+Nom,Prénom,Immatriculation,ID Groupe,Salaire (DT),Jours travaillés
+Kent,Amanda,POD9689,G2,3,1
+Nolan,Gabriella,CRP6354,G2,3,1
+Ruiz,Robert,GGA0276,G2,3,1
+Cook,John,NXE8723,G2,3,1
+Owen,Sharon,RCQ0212,G2,3,1
+,,,,,
+==================================================,,,,,
+,,,,,
+GROUPE 3 - Salaire: 6DT,,,,,
+Nombre de personnes: 6,,,,,
+Nombre de jours: 2,,,,,
+,,,,,
+Nom,Prénom,Immatriculation,ID Groupe,Salaire (DT),Jours travaillés
+Herring,Bethany,PUZ9994,G3,6,2
+Gordon,Benjamin,KKE2474,G3,6,2
+Kennedy,Craig,PLV7216,G3,6,2
+Cortez,Raymond,YHX1485,G3,6,2
+Rodriguez,Andrea,UWW5037,G3,6,2
+Howard,Stacey,TFZ0834,G3,6,2
+,,,,,
+==================================================,,,,,
+,,,,,
+GROUPE 4 - Salaire: 9DT,,,,,
+Nombre de personnes: 5,,,,,
+Nombre de jours: 3,,,,,
+,,,,,
+Nom,Prénom,Immatriculation,ID Groupe,Salaire (DT),Jours travaillés
+Montgomery,John,ZTC6643,G4,9,3
+Mccoy,Megan,NTZ9026,G4,9,3
+Fernandez,Peter,BXI8264,G4,9,3
+Odonnell,William,JLY3184,G4,9,3
+Williams,Juan,RCY7271,G4,9,3
+,,,,,
+==================================================,,,,,
+,,,,,
+GROUPE 5 - Salaire: 12DT,,,,,
+Nombre de personnes: 3,,,,,
+Nombre de jours: 4,,,,,
+,,,,,
+Nom,Prénom,Immatriculation,ID Groupe,Salaire (DT),Jours travaillés
+Baldwin,Paul,BPG8240,G5,12,4
+Collins,Michael,MBW5266,G5,12,4
+Woods,Brandy,NXN7065,G5,12,4
+,,,,,
+==================================================,,,,,
+,,,,,
+GROUPE 6 - Salaire: 15DT,,,,,
+Nombre de personnes: 5,,,,,
+Nombre de jours: 5,,,,,
+,,,,,
+Nom,Prénom,Immatriculation,ID Groupe,Salaire (DT),Jours travaillés
+Williams,Audrey,EGI9468,G6,15,5
+Villanueva,Sandra,SHF0246,G6,15,5
+Richard,Katherine,PZH5698,G6,15,5
+Bruce,Matthew,YZV2227,G6,15,5
+Johnston,Peter,NHU9622,G6,15,5
+,,,,,
+==================================================,,,,,
+,,,,,
+GROUPE 7 - Salaire: 18DT,,,,,
+Nombre de personnes: 1,,,,,
+Nombre de jours: 6,,,,,
+,,,,,
+Nom,Prénom,Immatriculation,ID Groupe,Salaire (DT),Jours travaillés
+Bates,Brandon,CBI6840,G7,18,6
+,,,,,
+==================================================,,,,,
+,,,,,
+GROUPE 8 - Salaire: 21DT,,,,,
+Nombre de personnes: 5,,,,,
+Nombre de jours: 7,,,,,
+,,,,,
+Nom,Prénom,Immatriculation,ID Groupe,Salaire (DT),Jours travaillés
+Pratt,Seth,MCW1895,G8,21,7
+Johnson,Ronald,NZF9993,G8,21,7
+Sanchez,Jessica,UHN1515,G8,21,7
+Thornton,Joshua,XYN0624,G8,21,7
+Todd,Nancy,WVL5745,G8,21,7
+,,,,,
+==================================================,,,,,
+,,,,,
+GROUPE 9 - Salaire: 24DT,,,,,
+Nombre de personnes: 4,,,,,
+Nombre de jours: 8,,,,,
+,,,,,
+Nom,Prénom,Immatriculation,ID Groupe,Salaire (DT),Jours travaillés
+Johnston,Kelly,WVM2775,G9,24,8
+Allen,Stephanie,SXB9172,G9,24,8
+Smith,James,WWL6941,G9,24,8
+Woodward,Jackson,YFL1841,G9,24,8
+,,,,,
+==================================================,,,,,
+,,,,,
+GROUPE 10 - Salaire: 27DT,,,,,
+Nombre de personnes: 2,,,,,
+Nombre de jours: 9,,,,,
+,,,,,
+Nom,Prénom,Immatriculation,ID Groupe,Salaire (DT),Jours travaillés
+Lee,Ashley,VOA9473,G10,27,9
+Bell,Henry,CNK8229,G10,27,9
+,,,,,
+==================================================,,,,,
+,,,,,
+GROUPE 11 - Salaire: 30DT,,,,,
+Nombre de personnes: 6,,,,,
+Nombre de jours: 10,,,,,
+,,,,,
+Nom,Prénom,Immatriculation,ID Groupe,Salaire (DT),Jours travaillés
+Walsh,Nicholas,VVJ1486,G11,30,10
+Becker,Anthony,BQF4985,G11,30,10
+Salazar,Diane,KEP5368,G11,30,10
+Dillon,John,VCD1076,G11,30,10
+Browning,Tonya,WLV9961,G11,30,10
+Garcia,Vanessa,GGY7305,G11,30,10
+,,,,,
+==================================================,,,,,
+,,,,,
+GROUPE 12 - Salaire: 33DT,,,,,
+Nombre de personnes: 1,,,,,
+Nombre de jours: 11,,,,,
+,,,,,
+Nom,Prénom,Immatriculation,ID Groupe,Salaire (DT),Jours travaillés
+Bowers,Kevin,XHV1119,G12,33,11
+,,,,,
+==================================================,,,,,
+,,,,,
+GROUPE 13 - Salaire: 36DT,,,,,
+Nombre de personnes: 3,,,,,
+Nombre de jours: 12,,,,,
+,,,,,
+Nom,Prénom,Immatriculation,ID Groupe,Salaire (DT),Jours travaillés
+Sellers,Gary,CIV0275,G13,36,12
+Cabrera,Craig,XEM2672,G13,36,12
+Maynard,Carrie,HMG8228,G13,36,12
+,,,,,
+==================================================,,,,,
+,,,,,
+GROUPE 14 - Salaire: 39DT,,,,,
+Nombre de personnes: 5,,,,,
+Nombre de jours: 13,,,,,
+,,,,,
+Nom,Prénom,Immatriculation,ID Groupe,Salaire (DT),Jours travaillés
+Wilson,Jeffrey,AVY0762,G14,39,13
+Wood,Tina,DCQ9415,G14,39,13
+Miles,Robert,OOY4172,G14,39,13
+Monroe,John,QNF9550,G14,39,13
+Patrick,Rachel,UXE1848,G14,39,13
+,,,,,
+==================================================,,,,,
+,,,,,
+GROUPE 15 - Salaire: 42DT,,,,,
+Nombre de personnes: 2,,,,,
+Nombre de jours: 14,,,,,
+,,,,,
+Nom,Prénom,Immatriculation,ID Groupe,Salaire (DT),Jours travaillés
+Brown,Erica,HPK4609,G15,42,14
+Norton,Marvin,DEF1512,G15,42,14
+,,,,,
+==================================================,,,,,
+,,,,,
+GROUPE 16 - Salaire: 45DT,,,,,
+Nombre de personnes: 4,,,,,
+Nombre de jours: 15,,,,,
+,,,,,
+Nom,Prénom,Immatriculation,ID Groupe,Salaire (DT),Jours travaillés
+Ramos,Gregory,ZKK7508,G16,45,15
+Durham,Tammy,HJY9278,G16,45,15
+Collins,Jessica,TKT4584,G16,45,15
+Bell,Keith,YOU5894,G16,45,15
+,,,,,
+==================================================,,,,,
+,,,,,
+GROUPE 17 - Salaire: 48DT,,,,,
+Nombre de personnes: 2,,,,,
+Nombre de jours: 16,,,,,
+,,,,,
+Nom,Prénom,Immatriculation,ID Groupe,Salaire (DT),Jours travaillés
+Matthews,Sean,WXL0967,G17,48,16
+Harmon,Matthew,IXW3207,G17,48,16
+,,,,,
+==================================================,,,,,
+,,,,,
+GROUPE 18 - Salaire: 51DT,,,,,
+Nombre de personnes: 2,,,,,
+Nombre de jours: 17,,,,,
+,,,,,
+Nom,Prénom,Immatriculation,ID Groupe,Salaire (DT),Jours travaillés
+Carroll,William,YPG7065,G18,51,17
+Smith,Tristan,HVI8653,G18,51,17
+,,,,,
+==================================================,,,,,
+,,,,,
+GROUPE 19 - Salaire: 54DT,,,,,
+Nombre de personnes: 1,,,,,
+Nombre de jours: 18,,,,,
+,,,,,
+Nom,Prénom,Immatriculation,ID Groupe,Salaire (DT),Jours travaillés
+Alvarez,Christopher,TGG6611,G19,54,18
+,,,,,
+==================================================,,,,,
+,,,,,
+GROUPE 20 - Salaire: 57DT,,,,,
+Nombre de personnes: 3,,,,,
+Nombre de jours: 19,,,,,
+,,,,,
+Nom,Prénom,Immatriculation,ID Groupe,Salaire (DT),Jours travaillés
+Reid,Catherine,NOL0381,G20,57,19
+Hayes,Donna,JJI6864,G20,57,19
+Garcia,Jordan,JEO8301,G20,57,19
+,,,,,
+==================================================,,,,,
+,,,,,
+GROUPE 21 - Salaire: 60DT,,,,,
+Nombre de personnes: 6,,,,,
+Nombre de jours: 20,,,,,
+,,,,,
+Nom,Prénom,Immatriculation,ID Groupe,Salaire (DT),Jours travaillés
+Perry,Debra,VRT4976,G21,60,20
+Perry,Richard,IRT1681,G21,60,20
+Gonzalez,Michael,SHS2518,G21,60,20
+Johnson,Andrew,YLS6762,G21,60,20
+Lopez,Jacob,KBL2125,G21,60,20
+Jacobson,Brittany,XXT3938,G21,60,20
+,,,,,
+==================================================,,,,,
+,,,,,
+GROUPE 22 - Salaire: 63DT,,,,,
+Nombre de personnes: 3,,,,,
+Nombre de jours: 21,,,,,
+,,,,,
+Nom,Prénom,Immatriculation,ID Groupe,Salaire (DT),Jours travaillés
+Chambers,Tammy,FRV3953,G22,63,21
+Romero,Sarah,QIU6275,G22,63,21
+Cain,Melissa,FJW4475,G22,63,21
+,,,,,
+==================================================,,,,,
+,,,,,
+GROUPE 23 - Salaire: 66DT,,,,,
+Nombre de personnes: 3,,,,,
+Nombre de jours: 22,,,,,
+,,,,,
+Nom,Prénom,Immatriculation,ID Groupe,Salaire (DT),Jours travaillés
+Campbell,Katelyn,LVU3662,G23,66,22
+Mclean,Megan,SLS0062,G23,66,22
+Davies,Sabrina,CXE2722,G23,66,22
+,,,,,
+==================================================,,,,,
+,,,,,
+GROUPE 24 - Salaire: 69DT,,,,,
+Nombre de personnes: 3,,,,,
+Nombre de jours: 23,,,,,
+,,,,,
+Nom,Prénom,Immatriculation,ID Groupe,Salaire (DT),Jours travaillés
+Woods,Michelle,MFX1030,G24,69,23
+Martinez,Jason,BVE2426,G24,69,23
+Leon,Christopher,KND7200,G24,69,23
+,,,,,
+==================================================,,,,,
+,,,,,
+GROUPE 25 - Salaire: 75DT,,,,,
+Nombre de personnes: 3,,,,,
+Nombre de jours: 25,,,,,
+,,,,,
+Nom,Prénom,Immatriculation,ID Groupe,Salaire (DT),Jours travaillés
+Allen,Tammy,PYQ0963,G25,75,25
+Dunn,Alexis,ATK0244,G25,75,25
+Schultz,Christine,TRX9350,G25,75,25
+,,,,,
+==================================================,,,,,
+,,,,,
+GROUPE 26 - Salaire: 78DT,,,,,
+Nombre de personnes: 2,,,,,
+Nombre de jours: 26,,,,,
+,,,,,
+Nom,Prénom,Immatriculation,ID Groupe,Salaire (DT),Jours travaillés
+Miller,Luke,GEN2961,G26,78,26
+Hamilton,Cheryl,JDY4829,G26,78,26
+,,,,,
+==================================================,,,,,
+,,,,,
